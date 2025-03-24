@@ -24,21 +24,22 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
           src={`https://nextjs-notion-waitlist.vercel.app/waitlist-logo.png`}
           width="220"
           height="100"
-          alt="Notion Waitlist Logo"
+          alt="Kismet Careers Waitlist Logo"
           style={logo}
         />
-        <Text style={greeting}>Hi {userFirstname},</Text>
+        <Text style={greeting}>Hey {userFirstname},</Text>
         <Text style={paragraph}>
-          Thanks for joining the waitlist for our Job Application Submission service!
+          Great news—you’re officially on the waitlist for our Job Application Submission Service! 📝✨
         </Text>
         <Text style={paragraph}>
-          We'll keep you posted on the progress and notify you as soon as it's
-          ready for you to use. In the meantime, if you have any questions or
-          feedback, don't hesitate to reach out by replying directly to{" "}
+          That means you're one step closer to hassle-free job applications (because, let’s be honest, 
+          job hunting should be way easier). We’re working behind the scenes to make everything just right, 
+          and you’ll be the first to know when we’re ready to roll! 
+          In the meantime, if you have any questions, ideas, or just want to say hi, {" "}
           <a href="mailto:kismetcareers@gmail.com" style={link}>
-            this email {""}
+            hit reply {""}
           </a>
-          — We're here to help!
+          —  we’re all ears (and keyboards). 🖥️💡
         </Text>
         <Text style={paragraph}>
           You can also follow us on TikTok for updates:{" "}
@@ -46,10 +47,13 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
             @kismetcareers
           </a>
         </Text>
+        <Text style={paragraph}>
+          Stay tuned, stay awesome, and we’ll be in touch soon! 🚀
+        </Text>
         <Text style={signOff}>
-          Best regards,
-          <br />
           The Kismet Careers Team
+          <br />
+          kismetcareers@gmail.com
         </Text>
         <Hr style={hr} />
         <Text style={footer}>
