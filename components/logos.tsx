@@ -23,14 +23,14 @@ export default function Logos() {
       <motion.div variants={itemVariants}>
         <TextBlur
           className="text-center text-2xl font-medium tracking-tight text-zinc-200 md:text-3xl"
-          text="Powered by"
+          text="Our Promise"
         />
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="text-center text-base text-zinc-300 sm:text-lg"
-          text="Simple and powerful tools that help you build faster"
+          className="text-center text-base text-zinc-200 sm:text-lg"
+          text="We never sell your information to anyone"
           duration={0.8}
         />
       </motion.div>
