@@ -13,9 +13,9 @@ const logos = [
   { href: "https://vercel.com", src: "/vercel.svg", alt: "Vercel Logo" },
 ];
 
-export default function Logos() {
+/* export default function Logos() {
   return (
-    /* <motion.div
+     <motion.div
       className="flex h-full w-full flex-col gap-2 pb-12 pt-12 md:pb-24 md:pt-16"
       variants={containerVariants}
       initial="hidden"
@@ -55,6 +55,6 @@ export default function Logos() {
           </Link>
         ))}
       </motion.div>
-    </motion.div> */
-  );
+    </motion.div>
+  ); */
 }
