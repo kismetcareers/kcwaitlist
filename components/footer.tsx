@@ -15,7 +15,7 @@ export default function Footer() {
           href="https://waitlist.kismetcareers.com"
           rel="noopener noreferrer"
           target="_blank">
-          <span className="text-zinc-300 underline underline-offset-2 transition-all duration-200 ease-linear hover:text-yellow-200">
+          &nbsp &nbsp<span className="text-zinc-300 underline underline-offset-2 transition-all duration-200 ease-linear hover:text-yellow-200">
             Sign up for your new career
           </span>
           .
