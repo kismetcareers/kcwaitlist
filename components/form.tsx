@@ -65,7 +65,7 @@ export default function Form({
           href="https://www.tiktok.com/@kismetcareers"
           rel="noopener noreferrer"
           target="_blank">
-          <Fa Tiktok className="h-4 w-4 transition-all duration-200 ease-linear hover:text-yellow-200" />
+          <FaTiktok className="h-4 w-4 transition-all duration-200 ease-linear hover:text-yellow-200" />
         </Link>
       </motion.div>
     </motion.div>
