@@ -41,7 +41,7 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { data, error } = await resend.emails.send({
     from: "Kismet Careers<hello@waitlist.kismetcareers.com>",
     to: [email],
-    subject: "Thank you for joining the waitlist!",
+    subject: "You’re on the list! 🎉🚀",
     reply_to: "kismetcareers@gmail.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
