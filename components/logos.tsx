@@ -29,7 +29,7 @@ export default function Logos() {
 
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="text-center text-base text-zinc-200 sm:text-lg"
+          className="text-center text-base text-zinc-100 sm:text-sm"
           text="We never sell your information to anyone"
           duration={0.8}
         />
