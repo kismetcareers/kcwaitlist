@@ -8,7 +8,7 @@ import { containerVariants, itemVariants } from "@/lib/animation-variants";
 
 export default function Header() {
   return (
-    <motion.div
+  <!--  <motion.div
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -35,6 +35,6 @@ export default function Header() {
           </Button>
         </Link>
       </motion.div>
-    </motion.div>
+    </motion.div> -->
   );
 }
