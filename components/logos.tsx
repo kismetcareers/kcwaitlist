@@ -1,4 +1,4 @@
-import Link from "next/link";
+/* import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
@@ -13,7 +13,7 @@ const logos = [
   { href: "https://vercel.com", src: "/vercel.svg", alt: "Vercel Logo" },
 ];
 
-/* export default function Logos() {
+export default function Logos() {
   return (
      <motion.div
       className="flex h-full w-full flex-col gap-2 pb-12 pt-12 md:pb-24 md:pt-16"
@@ -56,5 +56,6 @@ const logos = [
         ))}
       </motion.div>
     </motion.div>
-  ); */
+  ); 
 }
+*/
