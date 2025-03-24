@@ -1,4 +1,4 @@
-/* import Link from "next/link";
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "@/lib/animation-variants";
@@ -58,4 +58,3 @@ export default function Logos() {
     </motion.div>
   ); 
 }
-*/
