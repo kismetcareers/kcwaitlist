@@ -35,7 +35,7 @@ export default function Logos() {
         />
       </motion.div>
 
-      <motion.div
+     /* <motion.div
         variants={itemVariants}
         className="mt-4 grid w-full grid-cols-2 items-center justify-center gap-4 md:mt-6 md:grid-cols-3 md:gap-6">
         {logos.map((logo, index) => (
@@ -54,7 +54,7 @@ export default function Logos() {
             />
           </Link>
         ))}
-      </motion.div>
+      </motion.div> */
     </motion.div>
   ); 
 }
