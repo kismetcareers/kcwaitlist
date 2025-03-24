@@ -34,8 +34,8 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
         <Text style={paragraph}>
           That means you're one step closer to hassle-free job applications (because, let’s be honest, 
           job hunting should be way easier). We’re working behind the scenes to make everything just right, 
-          and you’ll be the first to know when we’re ready to roll! 
-          In the meantime, if you have any questions, ideas, or just want to say hi, {" "}
+          and you’ll be the first to know when we’re ready to roll!</Text>
+        <Text style={paragraph}>In the meantime, if you have any questions, ideas, or just want to say hi, {" "}
           <a href="mailto:kismetcareers@gmail.com" style={link}>
             hit reply {""}
           </a>
