@@ -22,7 +22,7 @@ export default function Logos() {
       animate="visible">
       <motion.div variants={itemVariants}>
         <TextBlur
-          className="text-center text-2xl font-medium tracking-tight text-zinc-200 md:text-3xl"
+          className="text-center text-2xl font-small tracking-tight text-zinc-200 md:text-3xl"
           text="Our Promise"
         />
       </motion.div>
