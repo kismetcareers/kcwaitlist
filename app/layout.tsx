@@ -9,7 +9,7 @@ const FigtreeFont = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kismet Careers Waitlist",
   description:
-    "Join the Kismet Careers waitlist and be notified when we go live!",
+    "Kismet Careers applies for jobs on your behalf.  Join the waitlist and be notified when we go live!",
 };
 
 export default function RootLayout({
